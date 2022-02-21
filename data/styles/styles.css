@@ -1,0 +1,41 @@
+decoration, window {
+    border-radius: 3px; /*change this to match adwaita theme*/
+    padding-bottom: 3px; /*this cause small empty*/
+}
+
+#note-item-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#note-item-1 {
+    padding: 10px;
+}
+
+#note-item-2 {
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+#note-edit {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Jetbrains Mono";
+}
+
+row {
+    margin: 3px;
+}
+
+row:hover {
+    border-radius: 10px;
+}
+
+row:selected {
+    border-radius: 10px;
+}
+
+row:selected #note-item-2 {
+    background-color: transparent;
+}
