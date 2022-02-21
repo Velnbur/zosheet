@@ -7,9 +7,7 @@
 #include "gtkmm/texttagtable.h"
 #include "gtkmm/textview.h"
 #include "objects.h"
-#include "pangomm/fontdescription.h"
 #include "sigc++/functors/mem_fun.h"
-#include "sigc++/functors/ptr_fun.h"
 #include <ctime>
 #include <iostream>
 #include <sys/types.h>

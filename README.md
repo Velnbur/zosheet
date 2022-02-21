@@ -12,5 +12,11 @@ $ make build
 
 Test:
 ``` shell
-$ make test
+$ make tests
 ```
+    
+    
+## Dependencies
+
+- gtkmm4.0
+- ctest (`ctest.h` already included in `tests` dir)
